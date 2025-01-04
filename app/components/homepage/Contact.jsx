@@ -25,7 +25,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_SERVER_URI}/mail/new-mail`,
+        `${"https://server.ahsandevhub.com"}/mail/new-mail`,
         {
           method: "POST",
           headers: {
