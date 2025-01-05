@@ -79,10 +79,10 @@ const Header = () => {
         {/* View Project Button */}
         <div className="hidden lg:block">
           <a
-            href="#portfolio"
+            href="/courses"
             className="rounded bg-[#6277ee] px-3 py-2 font-[600] text-white transition-all hover:bg-[#4e66eb]"
           >
-            View Project
+            My Courses
           </a>
         </div>
       </div>

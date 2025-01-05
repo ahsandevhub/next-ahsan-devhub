@@ -1,5 +1,3 @@
-import Footer from "./components/common/Footer";
-import Header from "./components/common/Header";
 import "./globals.css";
 
 export const metadata = {
@@ -14,11 +12,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/svg+xml" href="/ahsan-devhub-icon.png" />
       </head>
-      <body className={`antialiased`}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <body className={`antialiased`}>{children}</body>
     </html>
   );
 }
