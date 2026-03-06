@@ -1,3 +1,4 @@
+import Cover from "@/public/learning.png";
 import Image from "next/image";
 
 const CourseModule = () => {
@@ -14,7 +15,7 @@ const CourseModule = () => {
           <div className="grid grid-cols-2 gap-5">
             <div className="image">
               <Image
-                src="/images/learning.png"
+                src={Cover}
                 height={500}
                 width={500}
                 alt="learning image"

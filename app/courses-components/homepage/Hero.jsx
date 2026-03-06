@@ -72,7 +72,7 @@ const Hero = () => {
             src="https://www.youtube.com/embed/AA2c9UvX7CU"
             title="Complete Beginner Web Development Series in Bengali by WebDev With Ahsan"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
             className="h-full w-full"
           ></iframe>
